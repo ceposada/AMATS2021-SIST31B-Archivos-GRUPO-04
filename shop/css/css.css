@@ -1,0 +1,260 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	font-family: montserrat;
+	background-color: aliceblue;
+}
+
+/*Menu de navegacion*/
+
+nav {
+	height: 80px;
+	width: 100%;
+	background: #000;
+	color: white;
+}
+
+label.logo {
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	padding: 0 100px;
+	line-height: 80px;
+}
+
+nav ul {
+	float: right;
+	margin-right: 40px;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 80px;
+}
+
+nav a {
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+	border: 1px solid transparent;
+	padding: 7px 10px;
+	border-radius: 3px;
+}
+
+a.active,a:hover{
+	border: 1px solid white;
+	transition: .5s;
+}
+
+/*Inicio o General*/
+
+.prin {
+	width: 90%px;
+	height: 500px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*Carrucel*/
+
+#carouselExampleControls {
+	margin-top: 40px;
+	width: 90%;
+	height: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#carouselExampleControls img{
+	width: 1000px;
+	height: 800px;
+}
+
+/*Sobre nosotros*/
+
+.sobre {
+	width: 90%;
+	height: auto;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.sobre h1 {
+	text-align: center;
+}
+
+.mision {
+	width: 45%;
+	height: auto;
+	margin-top: 10px;
+	float: left;
+	background-color: white;
+	border-radius: 30px;
+	border-color: #000;
+	
+}
+
+.mision h2 {
+	text-align: center;
+}
+
+.vision {
+	width: 45%;
+	height: auto;
+	margin-top: 10px;
+	float: right;
+	background-color: white;
+	border-radius: 30px;
+	border-color: #000;
+	
+}
+
+.vision h2 {
+	text-align: center;
+}
+
+/*Cont2*/
+
+.cont2 {
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	background: white;
+	width: 90%;
+	height: auto;
+	margin-bottom: 100px;
+}
+
+.cont2 hr{
+	border: 2px solid black;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*txt*/
+
+.txt {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.txt hr{
+	border: 2px solid black;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/*Recomendados*/
+
+.carrucel{
+	margin-top: 40px;
+	width: 90%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+}
+
+#carouselExampleSlidesOnly img {
+	width: 1000px;
+	height: 600px;
+}
+
+
+/*contenido*/
+
+.cont3{
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 90%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.prodcont{
+	margin: 15px;
+	padding: 2px 16px;
+	position: relative;
+	box-shadow: 0 8pc 8px 0 rgba(0,0,0,0.2);
+	background-color: white;
+}
+
+.prodcont:hover {
+	box-shadow: 0 8pc 16px 0 rgba(0,0,0,0.2); 
+}
+
+.prodcont img{
+	width: 300px;
+}
+
+.button-add {
+	text-decoration: none;
+	transition-duration: 0.4s;
+	background-color: white;
+	color: black;
+ 	border: 2px solid #4CAF50;
+ 	position: absolute;
+ 	right: 15px;
+ 	bottom: 10px;
+}
+
+.button-add:hover{
+	background-color: #4CAF50;
+	color: white;
+}
+
+.prodcont h1{
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+.pay {
+	width: 90%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.pay button {
+	float: right;
+}
+
+.button-chek{
+	text-decoration: none;
+	transition-duration: 0.4s;
+	background-color: white;
+	color: black;
+ 	border: 2px solid #008CBA;
+ 	position: relative;
+ 	margin-top: 20px;
+ 	right: 15px;
+ 	bottom: 15px;
+}
+
+.button-chek:hover{
+	background-color: #008CBA;
+	color: white;
+}
+
+button {
+	font-size: 16px;
+	text-align: center;
+	border-radius: 8px;
+	padding: 10px 25px;
+}
