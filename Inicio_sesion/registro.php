@@ -12,8 +12,8 @@ if (isset($_POST["enviar"]))
       $datos[] = $_POST["sexo"];
       $datos[] = "user";
 
-  $campos = array("usuario", "nombres", "apellidos", "passwrd", "edad", "sexo", "cargo");
-  $obj -> insertarSQL("usuario", $campos, $datos);
+  $campos = array('usuario', 'nombres', 'apellidos', 'passwrd', 'edad', 'sexo', 'cargo');
+  $obj -> insertarSQL('usuario', $campos, $datos);
 } 
 
 
